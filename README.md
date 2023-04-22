@@ -50,4 +50,4 @@ After cloning, navigate into the directory printf and write a main.c file to tes
 
 Alternatively,the sub directory test_files contains a main file and an executable named main that will be available on your local machine after cloning the repository, you may take a look at the source code and run the executable to see the output. You may as well modify the content of the main.c, copy it to the root directory and recompile
 
-Submitted by: [John Chimdike Ezekiel](https://github.com/Easykeljohn) and 
+Submitted by: [John Chimdike Ezekiel](https://github.com/Easykeljohn) and [Nnenna Nkata](https://github.com/nellyrobert)
