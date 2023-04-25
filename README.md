@@ -17,26 +17,26 @@ An optional field width
 ## Features.
 Our implementation of the printf function supports the following format specifiers:
 
-%c - prints a single character.  
-%s - prints a string of characters.  
-%d - prints a signed decimal integer.  
-%i - prints a signed decimal integer.  
-%u - prints an unsigned decimal integer.  
-%x - prints a hexadecimal integer (lowercase).  
-%X - prints a hexadecimal integer (uppercase).  
-%o - prints an octal integer.  
-%b - prints a binary integer.  
-%p - prints a pointer address.  
-%% - prints a literal % character.  
+%c - prints a single character.
+%s - prints a string of characters.
+%d - prints a signed decimal integer.
+%i - prints a signed decimal integer.
+%u - prints an unsigned decimal integer.
+%x - prints a hexadecimal integer (lowercase).
+%X - prints a hexadecimal integer (uppercase).
+%o - prints an octal integer.
+%b - prints a binary integer.
+%p - prints a pointer address.
+%% - prints a literal % character.
 
 **In addition, the following flags and modifiers are supported:**
 
-\- - left-justify the output.  
-\+ - always print a sign (+ or -) for signed integers.  
-0 - pad with zeros instead of spaces.  
-\# - print the prefix (0 or 0x) for octal/hexadecimal numbers.  
-(space) - prefix positive signed integers with a space.  
-\. - specify the precision for floating-point numbers.  
+\- - left-justify the output.
+\+ - always print a sign (+ or -) for signed integers.
+0 - pad with zeros instead of spaces.
+\# - print the prefix (0 or 0x) for octal/hexadecimal numbers.
+(space) - prefix positive signed integers with a space.
+\. - specify the precision for floating-point numbers.
 
 Our implementation of printf is also capable of handling custom format specifiers, which allows the user to define their own format specifiers for special use cases.
 
