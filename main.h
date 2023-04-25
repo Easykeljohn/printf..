@@ -39,7 +39,9 @@ unsigned int len;
 typedef struct converter_s
 {
 unsigned char specifier;
-unsigned int (*func)(va_list, buffer_t *, unsigned char, int, int, unsigned char);
+/*
+ * int - intefer function */ unsigned int (*func)(va_list, buffer_t *,
+		unsigned char, int, int, unsigned char);
 } converter_t;
 /**
 * struct flag_s - A new type defining a flags struct.
