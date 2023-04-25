@@ -1,5 +1,5 @@
 ## ALX Printf Project.
-This is a collaborative project to implement the printf function in C programming language. The printf function is used to print output to the console in a specific format. This project is a significant part of the curriculum for the ALX Software Engineering program.
+**This is a collaborative project to implement the printf function in C programming language. The printf function is used to print output to the console in a specific format. This project is a significant part of the curriculum for the ALX Software Engineering program.**
 
 ## Synopsis.
 **int _printf(const char *format, ...);** is the protype of the function, and this implies that the function takes one madatory argument that can not be altered, since it's a const, and some optional varying number of arguments. The content of the string format determines what happens to the other argument(s), if any.
